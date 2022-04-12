@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/dorel">
+
+
+    <LinearLayout
+        android:layout_width="65dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="275dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="275dp"
+            android:layout_height="75dp" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="275dp"
+            android:layout_height="57dp"
+            android:text="Switch" />
+
+        <Space
+            android:layout_width="275dp"
+            android:layout_height="50dp" />
+
+        <RadioGroup
+            android:id="@+id/RadioGroup"
+            android:layout_width="275dp"
+            android:layout_height="192dp">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Red" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blue" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yellow" />
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Green" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="275dp"
+            android:layout_height="67dp"
+            android:onClick="change"
+            android:text="Change" />
+
+        <Space
+            android:layout_width="275dp"
+            android:layout_height="190dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="65dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="65dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>
